@@ -13,7 +13,7 @@ const Music = ({ camera }) => {
     const audioLoader = new THREE.AudioLoader();
 
     // Loading the audio buffer
-    audioLoader.load('../assets/null.mp3', (buffer) => {
+    audioLoader.load('../assets/knull.mp3', (buffer) => {
       // Set the audio buffer once it's loaded
       audio.setBuffer(buffer);
       audio.setLoop(true);
